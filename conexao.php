@@ -2,7 +2,7 @@
 define('HOST', 'mysql669.umbler.com');
 define('USUARIO', 'attrative');
 define('SENHA', 'admin123admin');
-define('DB', 'usuario');
+define('DB', 'attrative');
 
 $conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar');
 
