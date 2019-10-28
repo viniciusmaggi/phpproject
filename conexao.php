@@ -1,8 +1,8 @@
 <?php
-define('HOST', '127.0.0.1');
-define('USUARIO', 'root');
-define('SENHA', 'adminvmo');
-define('DB', 'login');
+define('HOST', 'mysql669.umbler.com');
+define('USUARIO', 'attrative');
+define('SENHA', 'admin123admin');
+define('DB', 'usuario');
 
 $conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar');
 
